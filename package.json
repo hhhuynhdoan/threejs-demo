@@ -2,10 +2,11 @@
 	"name": "huynhdoan-react",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://nemutas.github.io/r3f-gpgpu-particles/",
+	"type": "module",
 	"dependencies": {
-		"@react-three/drei": "^8.3.1",
-		"@react-three/fiber": "^7.0.24",
+		"@react-three/drei": "9.68.3",
+		"@react-three/fiber": "7.0.25",
+		"@reduxjs/toolkit": "^1.9.5",
 		"@testing-library/jest-dom": "^5.16.1",
 		"@testing-library/react": "^12.1.2",
 		"@testing-library/user-event": "^13.5.0",
@@ -13,10 +14,18 @@
 		"@types/node": "^16.11.19",
 		"@types/react": "^17.0.38",
 		"@types/react-dom": "^17.0.11",
+		"@types/react-redux": "^7.1.25",
+		"@types/redux-thunk": "^2.1.0",
+		"@types/three": "0.149.0",
+		"lamina": "1.0.1",
+		"leva": "0.9.18",
 		"lil-gui": "^0.16.0",
+		"meshline": "^3.1.6",
 		"node-sass": "^8.0.0",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
+		"ogl": "^0.0.117",
+		"ogl-typescript": "^0.1.40",
+		"react": "18.3.0",
+		"react-dom": "18.3.0",
 		"react-scripts": "5.0.0",
 		"three": "^0.149.0",
 		"typescript": "^4.5.4",
@@ -48,7 +57,7 @@
 		]
 	},
 	"devDependencies": {
-		"@types/three": "^0.136.1",
+		"@types/three": "^0.152.0",
 		"gh-pages": "^3.2.3"
 	}
 }
